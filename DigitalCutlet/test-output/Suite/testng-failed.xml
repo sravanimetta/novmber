@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="assianmentxml(failed)">
+    <classes>
+      <class name="testcases.dashboardTestCases">
+        <methods>
+          <include name="dashboardtestcase1"/>
+          <include name="beforeclass"/>
+          <include name="beforemethod"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testcases.dashboardTestCases -->
+      <class name="testcases.LoginTestCases">
+        <methods>
+          <include name="logintestcase1"/>
+          <include name="beforeclass"/>
+          <include name="beforemethod"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testcases.LoginTestCases -->
+    </classes>
+  </test> <!-- assianmentxml(failed) -->
+</suite> <!-- Failed suite [Suite] -->
